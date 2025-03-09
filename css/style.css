@@ -18,7 +18,50 @@ body {
     width: 100%;
     z-index: 1000;
 }
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
 
+.nav-links li {
+    display: inline;
+}
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #1B3A4B;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
 /* Navbar Links */
 .nav-links a {
     text-decoration: none;
