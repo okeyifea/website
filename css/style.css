@@ -17,22 +17,52 @@ section {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-nav ul {
+.cv {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.cv h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cv ul {
     list-style-type: none;
-    display: flex;
-    gap: 15px;
+    padding-left: 0;
 }
 
-nav li {
+.cv li {
+    font-size: 18px;
+    margin-bottom: 10px;
     padding: 10px;
-    background-color: #333;
-    color: white;
+    background: #fff;
     border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-nav li:hover {
-    background-color: #555;
+.cv li strong {
+    color: #007BFF;
+    font-size: 18px;
 }
+
+.cv ul ul {
+    padding-left: 20px;
+}
+
+.cv ul ul li {
+    background: none;
+    box-shadow: none;
+    font-size: 16px;
+    color: #555;
+}
+
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
@@ -42,12 +72,6 @@ h1{
     background: #0F2557;
     color: #f4f4f4;
     padding: 20px;
-}
-.cv{
-    font-size: 20px;
-    background: #28559A;
-    color: #f4f4f4;
-    padding: 20px;   
 }
 .portfolio{
     font-size: 20px;
