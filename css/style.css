@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding-top: 60px;
+    padding-top: 70px;
     background-color: #F5E6C5; 
 }
 
@@ -27,6 +27,8 @@ body {
 .nav-links li {
     display: inline;
 }
+
+/*mobile menu bar*/
 .menu-toggle {
     display: none;
     font-size: 24px;
@@ -48,6 +50,7 @@ body {
         width: 100%;
         text-align: center;
         padding: 10px 0;
+        transition: all 0.3s ease-in-out;
     }
 
     .nav-links.active {
@@ -85,6 +88,26 @@ body {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.main-header h1 {
+    font-size: 32px;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.main-header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Section*/
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* CV Section */
@@ -234,8 +257,13 @@ body {
 .image-grid img:hover {
     transform: scale(1.05);
 }
+@media (max-width: 480px) {
+    .image-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
 
-/* Contact Section */
+/* Contact */
 .contact {
     background: white;
     padding: 30px;
@@ -261,4 +289,4 @@ body {
 
 .contact-info a:hover {
     color: #06D6A0; 
-}
+} 
