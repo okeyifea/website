@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding-top: 70px;
-    background-color: #F5E6C5; 
+    background: url(../img/body.webp);
 }
 
 /* Navbar */
@@ -83,7 +83,7 @@ body {
 /* Header */
 .main-header {
     background: url(../img/header.webp); 
-    color: white;
+    color: whitesmoke;
     padding: 100px 20px;
     text-align: center;
     border-radius: 10px;
