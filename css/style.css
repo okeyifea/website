@@ -5,11 +5,28 @@ body {
     background-color: #B0B0B0;
     text-align: center;
 }
-header {
-    background: #150734;
+.main-header {
+    background: linear-gradient(to right, #007BFF, #00A8E8); 
     color: white;
-    padding: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.main-header h1 {
+    font-size: 32px;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.main-header p {
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
 section {
     margin: 20px;
     padding: 20px;
@@ -62,12 +79,32 @@ section {
     font-size: 16px;
     color: #555;
 }
-.about-me{
-    font-size: 20px;
+.about-me {
     background: #0F2557;
-    color: #f4f4f4;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
 }
+
+.about-me h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-me strong {
+    color: #007BFF;
+}
+
 .portfolio {
     background: #3778C2;
     padding: 20px;
