@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url(../img/back.jpg);
     text-align: center;
 }
 header {
-    background: #333;
+    background: #150734;
     color: white;
     padding: 20px;
 }
@@ -30,19 +30,19 @@ h1{
 }
 .about-me{
     font-size: 20px;
-    background: #333;
+    background: #0F2557;
     color: #f4f4f4;
     padding: 20px;
 }
 .cv{
     font-size: 20px;
-    background: #333;
+    background: #28559A;
     color: #f4f4f4;
     padding: 20px;   
 }
 .portfolio{
     font-size: 20px;
-    background: #333;
+    background: #3778C2;
     color: #f4f4f4;
     padding: 20px;
 }
