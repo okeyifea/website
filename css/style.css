@@ -82,7 +82,7 @@ body {
 
 /* Header */
 .main-header {
-    background: #1B3A4B; 
+    background: url(../img/header.webp); 
     color: white;
     padding: 100px 20px;
     text-align: center;
