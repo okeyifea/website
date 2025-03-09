@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #B0B0B0;
+    background-color: #A45A3D;
     text-align: center;
 }
 .main-header {
-    background: linear-gradient(to right, #007BFF, #00A8E8); 
+    background: #5D2E1E; 
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -35,7 +35,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .cv {
-    background: #28559A;
+    background: #F2E2C4;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -80,7 +80,7 @@ section {
     color: #555;
 }
 .about-me {
-    background: #0F2557;
+    background: #E8C1A0 ;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -106,7 +106,7 @@ section {
 }
 
 .portfolio {
-    background: #3778C2;
+    background: #D97941;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
