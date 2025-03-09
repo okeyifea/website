@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 .main-header {
-    background: #5D2E1E; 
+    background: #1B3A4B; 
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -35,7 +35,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .cv {
-    background: #F2E2C4;
+    background: #F2E2D2;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -80,7 +80,7 @@ section {
     color: #555;
 }
 .about-me {
-    background: #E8C1A0 ;
+    background: #C4A484 ;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -106,7 +106,7 @@ section {
 }
 
 .portfolio {
-    background: #D97941;
+    background: #5D737E;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
