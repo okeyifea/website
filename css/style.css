@@ -12,6 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    height: 60px;
     top: 0;
     width: 100%;
     z-index: 1000;
