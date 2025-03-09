@@ -96,6 +96,42 @@ body {
     max-width: 800px;
     margin: 20px auto;
 }
+.cv h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cv ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cv li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cv li strong {
+    color: #007BFF;
+    font-size: 18px;
+}
+
+.cv ul ul {
+    padding-left: 20px;
+}
+
+.cv ul ul li {
+    background: none;
+    box-shadow: none;
+    font-size: 16px;
+    color: #555;
+}
 
 /* About Me */
 .about-me {
@@ -107,9 +143,20 @@ body {
     margin: 20px auto;
     text-align: center;
 }
-
-.about-me h2, .about-me p {
+.about-me h2 {
     color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+}
+
+.about-me strong {
+    color: #007BFF;
 }
 
 /* Portfolio */
@@ -121,6 +168,36 @@ body {
     max-width: 800px;
     margin: 20px auto;
 }
+.portfolio h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.portfolio ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.portfolio li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.portfolio a:hover {
+    text-decoration: underline;
+}
 
 /* Gallery */
 .gallery {
@@ -131,6 +208,31 @@ body {
     max-width: 900px;
     margin: 20px auto;
     text-align: center;
+}
+.gallery h2 {
+    color: #1B3A4B; 
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05);
 }
 
 /* Contact Section */
