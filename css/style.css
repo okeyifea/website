@@ -62,11 +62,6 @@ section {
     font-size: 16px;
     color: #555;
 }
-
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: oblique;
-}
 .about-me{
     font-size: 20px;
     background: #0F2557;
@@ -74,8 +69,35 @@ h1{
     padding: 20px;
 }
 .portfolio{
-    font-size: 20px;
-    background: #3778C2;
-    color: #f4f4f4;
-    padding: 20px;
+        background: #3778C2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        margin: 20px auto;
+}
+.portfolio h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.portfolio ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.portfolio li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio li strong {
+    color: #007BFF;
+    font-size: 18px;
 }
