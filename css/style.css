@@ -257,11 +257,11 @@ section {
 .image-grid img:hover {
     transform: scale(1.05);
 }
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     .image-grid {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
-}
+}*/
 
 /* Contact */
 .contact {
