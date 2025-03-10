@@ -82,8 +82,8 @@ body {
 
 /* Header */
 .main-header {
-    background: url("./header.webp") no-repeat center center;
-    background-size: cover;
+   background-color: #A47C5D;
+   color: #333;
     padding: 100px 20px;
     text-align: center;
     border-radius: 10px;
