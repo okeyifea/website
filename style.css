@@ -83,14 +83,12 @@ body {
 /* Header */
 .main-header {
     background: url(./header.webp);
-    color: whitesmoke;
     padding: 100px 20px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .main-header h1 {
-    color: #A47C5D;
     font-size: 32px;
     margin: 0;
     letter-spacing: 1px;
@@ -100,7 +98,6 @@ body {
 .main-header p {
     font-size: 18px;
     margin-top: 10px;
-    color: #A47C5D;
 }
 
 /* Section*/
