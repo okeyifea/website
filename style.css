@@ -82,7 +82,11 @@ body {
 
 /* Header */
 .main-header {
+<<<<<<< HEAD
     background: url(./header.webp); 
+=======
+    background: url(../header.webp); 
+>>>>>>> 45bb963b6e03c56afb35b54ab2c2200456669088
     color: whitesmoke;
     padding: 100px 20px;
     text-align: center;
