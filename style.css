@@ -82,12 +82,11 @@ body {
 
 /* Header */
 .main-header {
-   background-color: #A47C5D;
-   color: #333;
+    background: url(./header.webp);
     padding: 100px 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
 }
 
 .main-header h1 {
